@@ -1,0 +1,1 @@
+ts<br>import type { Config } from "tailwindcss";<br><br>const config: Config = {<br> content: ["./app/**/*.{js,ts,jsx,tsx,mdx}"],<br> theme: { extend: {} },<br> plugins: [],<br>};<br>export default config;<br>
