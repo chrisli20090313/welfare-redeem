@@ -1,0 +1,1 @@
+tsx<br>import { NextResponse } from "next/server";<br>import type { NextRequest } from "next/server";<br><br>export function middleware(req: NextRequest) {<br> if (req.nextUrl.pathname.startsWith("/api/admin")) {<br> return NextResponse.next();<br> }<br> return NextResponse.next();<br>}<br><br>export const config = {<br> matcher: ["/api/admin/:path*"],<br>};<br>
