@@ -1,0 +1,1 @@
+css<br>@tailwind base;<br>@tailwind components;<br>@tailwind utilities;<br><br>body {<br> @apply bg-gray-50 text-gray-800;<br>}<br>
