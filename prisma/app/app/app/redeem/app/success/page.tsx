@@ -1,0 +1,1 @@
+tsx<br>export default function SuccessPage() {<br> return (<br> <main className="max-w-xl mx-auto p-4 mt-20 text-center"><br> <h1 className="text-xl font-bold text-green-600 mb-4">兑换成功</h1><br> <p className="text-gray-600">我们会尽快按您填写的地址安排发货</p><br> </main><br> );<br>}<br>
