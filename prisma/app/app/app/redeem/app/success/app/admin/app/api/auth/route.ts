@@ -1,0 +1,1 @@
+tsx<br>import { NextResponse } from "next/server";<br><br>export async function POST(req: Request) {<br> const { password } = await req.json();<br> if (password === process.env.ADMIN_PASSWORD) {<br> return NextResponse.json({ token: "admin_logined" });<br> }<br> return NextResponse.json({ error: "密码错误" }, { status: 401 });<br>}<br>
